@@ -53,6 +53,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		System.out.print("Sam");
 		}
 
 }
